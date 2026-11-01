@@ -37,7 +37,7 @@ dependencies = [
   "asyncpg>=0.31,<1",
   # FastAPI 0.141 is the first certified line here with the security-fixed
   # Starlette 1.x transport required by the FastMCP 3.4 integration.
-  "fastapi>=0.141,<0.142",
+  "fastapi>=0.141,<0.163",
   "pydantic>=2.13,<3",
   "packaging>=25,<27",
   "SQLAlchemy[asyncio]>=2.0.50,<2.1",
